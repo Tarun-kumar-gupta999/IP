@@ -6,7 +6,8 @@ export default function Home() {
     <div>
         <p style={{marginBottom:'60px'}}></p>
     </div>
-    <div style={{backgroundColor:'Grey'}}>
+    <div style={{backgroundColor:'Grey',marginLeft:'4%',marginRight:'1%'}}>
+    <div>
         <div style={{width:'60%',marginLeft:'4%'}}>
             <h1 className='multicolortext'>AI based consultancy and product development enterprise</h1>
         </div>
@@ -18,14 +19,21 @@ export default function Home() {
     </div>
 
     
-    <div style={{marginLeft:'4%'}}>
-        <p style={{fontStyle:'bold'}}>Some more insight-</p>
+    <div style={{backgroundColor:'Silver'}}>
+        <h5 style={{marginLeft:'4%'}}>Some more insight-</h5>
         <div className='c1'>
-        <div style={{borderStyle:'solid dotted dashed solid',width:'20%'}}>hiii</div>
-        <div>how</div>
-        <div>are</div>
-        <div>you</div>
+        <div className='insight'>
+        <div style={{fontWeight:'bold'}}>Use Cases:</div>
+        <div>a)Deep Tech Product Development</div>
+        <div>b)Enabling Data Privacy in Machine Learning Model</div>
+        <div>c)Better Language Transcription and Translation Services</div>
+
         </div>
+        <div className='insight'>how</div>
+        <div className='insight'>are</div>
+        <div className='insightr'>you</div>
+        </div>
+    </div>
     </div>
     </>
   )
