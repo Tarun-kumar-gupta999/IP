@@ -19,7 +19,7 @@ export default function Home() {
     </div>
 
     
-    <div style={{backgroundColor:'Silver'}}>
+    <div style={{backgroundColor:'Silver',marginTop:'10%'}}>
         <h5 style={{marginLeft:'4%'}}>Some more insight-</h5>
         <div className='c1'>
         <div className='insight'>
