@@ -18,16 +18,41 @@ export default function Navbar() {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="">Deep Tech Product Development</a></li>
-                                    <li><a className="dropdown-item" href="">Another action</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="">Enabling Data Privacy in Machine Learning Model</a></li>
+                                    {/* <li><hr className="dropdown-divider"/></li> */}
+                                    <li><a className="dropdown-item" href="">Better Language Transcription and Translation Services</a></li>
                                 </ul>
                             </li>
 
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="">Home</a>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Industries
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="">Healthcare</a></li>
+                                    <li><a className="dropdown-item" href="">Retail</a></li>
+                                    <li><a className="dropdown-item" href="">Agriculture</a></li>
+                                    <li><a className="dropdown-item" href="">Conversational AI</a></li>
+                                    <li><a className="dropdown-item" href="">Security and Privacy in AI</a></li>
+                                    
+                                </ul>
                             </li>
-                
+
+
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="">Customers</a>
+                            </li>
+
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Research
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="">Publications</a></li>
+                                    <li><a className="dropdown-item" href="">Research Team</a></li>
+                                </ul>
+                            </li>
+    
                             
                         </ul>
 
