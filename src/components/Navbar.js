@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{height:'80px'}}>
                 <div className="container-fluid">
                     <a className="navbar-brand" href="">Mavvex</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,21 @@ export default function Navbar() {
                                     <li><a className="dropdown-item" href="">Publications</a></li>
                                     <li><a className="dropdown-item" href="">Research Team</a></li>
                                 </ul>
+                            </li>
+
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Company
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="">About us</a></li>
+                                    <li><a className="dropdown-item" href="">Contact us</a></li>
+                                    <li><a className="dropdown-item" href="">Careers</a></li>
+                                </ul>
+                            </li>
+
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="">Blog</a>
                             </li>
     
                             
