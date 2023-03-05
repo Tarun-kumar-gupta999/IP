@@ -17,7 +17,7 @@ export default function Navbar() {
                                 Use Cases
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="">Deep Tech Product Development</a></li>
+                                    <li><a className="dropdown-item" href="/deepTech">Deep Tech Product Development</a></li>
                                     <li><a className="dropdown-item" href="">Enabling Data Privacy in Machine Learning Model</a></li>
                                     {/* <li><hr className="dropdown-divider"/></li> */}
                                     <li><a className="dropdown-item" href="">Better Language Transcription and Translation Services</a></li>
