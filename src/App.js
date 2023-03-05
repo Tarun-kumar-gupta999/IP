@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './Footer';
 import Home from './Home';
 import DeeoTech from './components/NavbarComponents/deeoTech'
+import Aboutus from './components/NavbarComponents/Aboutus'
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,6 +20,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Home/>} ></Route>
       <Route path='/deepTech' element={<DeeoTech/>} ></Route>
+      <Route path='/aboutus' element={<Aboutus/>} ></Route>
       </Routes>
       <Footer/>
     </Router>

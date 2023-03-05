@@ -58,7 +58,7 @@ export default function Navbar() {
                                 Company
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="">About us</a></li>
+                                    <li><a className="dropdown-item" href="/aboutus">About us</a></li>
                                     <li><a className="dropdown-item" href="">Contact us</a></li>
                                     <li><a className="dropdown-item" href="">Careers</a></li>
                                 </ul>
